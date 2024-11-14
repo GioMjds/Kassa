@@ -17,7 +17,7 @@ html {
 .messages {
     display: flex;
     flex-direction: column;
-    padding: 0px 300px;
+    padding: 0 300px;
     padding-top: 30px;
 }
 
@@ -31,7 +31,7 @@ html {
     min-width: 20vw;
 }
 
-.messages .responseMsg {
+.messages .responseMsg{
     clear: both;
     background-color: #181818;
     padding: 15px;
