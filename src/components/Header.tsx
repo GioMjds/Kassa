@@ -6,11 +6,11 @@ interface HeaderProps {
 
 const Header: FC<HeaderProps> = ({ onNewChat }) => {
   return (
-    <div className="header pt-[25px] flex items-center justify-between w-full px-[20px]">
+    <div className="header flex items-center justify-between w-full p-4">
         <h2 className="text-3xl font-bold">Kassa</h2>
         <button
             id="newChatBtn"
-            className="bg-button p-[10px] rounded-[30px] cursor-pointer text-[14px] px-[20px]"
+            className="bg-button p-4 rounded-2xl cursor-pointer text-[14px] px-[20px]"
             onClick={onNewChat}
         >
             New Chat
